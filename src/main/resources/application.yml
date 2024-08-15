@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: race-condition
+  datasource:
+    url: jdbc:mysql://localhost:2700/woyo_project
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
